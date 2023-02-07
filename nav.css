@@ -1,0 +1,38 @@
+*{margin: 0;
+}
+.bg{
+    background-color: rgb(151, 155, 66);
+    border-radius: 10px;
+}
+
+.bg li{
+    float: left;
+    list-style-type: none;
+    margin: 13px 20px;
+
+}
+.bg ul{
+    overflow: auto;
+}
+.bg li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: rgb(222, 18, 18);
+    
+
+}
+.search{
+    float: right;
+    color: aliceblue;
+    padding: 12px 75px;
+}
+.bg input{
+    border: 2px solid rgb(220, 12, 12);
+    border-radius: 10px;
+    padding: 3px 27px;
+    width: 140px;
+    color: rgb(151, 155, 66);
+}
+.bg li a:hover{
+    color: rgb(18, 72, 198);
+}
